@@ -1,3 +1,8 @@
+from bisect import bisect_left, bisect_right
+from collections import defaultdict
+from typing import List
+
+
 class RangeFreqQuery:
 
     def __init__(self, arr: List[int]):
@@ -10,9 +15,9 @@ class RangeFreqQuery:
             return 0
 
         indices = self.pos[value]
-        l = bisect.bisect_left(indices, left)
-        r = bisect.bisect_right(indices, right)
-        return r - l
+        left_idx = bisect_left(indices, left)
+        right_idx = bisect_right(indices, right)
+        return right_idx - left_idx
 
         
 # Your RangeFreqQuery object will be instantiated and called as such:
