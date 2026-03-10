@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
         x_arr = [1]
