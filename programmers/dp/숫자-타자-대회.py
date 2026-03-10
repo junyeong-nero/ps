@@ -1,8 +1,4 @@
-from collections import deque
-
 def solution(numbers):
-    
-    n = len(numbers)
     positions = {
         1: (0, 0),
         2: (0, 1),
