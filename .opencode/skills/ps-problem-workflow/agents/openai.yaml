@@ -1,0 +1,4 @@
+interface:
+  display_name: "PS Problem Workflow"
+  short_description: "Reorganize PS solutions, update daily logs, and commit in the repo's preferred order."
+  default_prompt: "Reorganize uncategorized problem solution files in this repository, update logs/YYYY-MM-DD.md, and commit each problem separately before the daily summary commit."
