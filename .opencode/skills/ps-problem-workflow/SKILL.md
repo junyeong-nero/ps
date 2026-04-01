@@ -1,6 +1,6 @@
 ---
 name: ps-problem-workflow
-description: Project-specific workflow for this repository when reorganizing uncategorized `leetcode/` or `programmers/` solution files, updating `logs/YYYY-MM-DD.md`, and making per-problem commits followed by a daily summary commit.
+description: Project-specific workflow for this repository when reorganizing uncategorized `leetcode/` or `programmers/` solution files such as `*.py` and `*.cpp`, updating `logs/YYYY-MM-DD.md`, and making per-problem commits followed by a daily summary commit.
 ---
 
 # PS Problem Workflow
@@ -9,16 +9,16 @@ description: Project-specific workflow for this repository when reorganizing unc
 
 ## When to Use
 
-- `leetcode/` 또는 `programmers/` 아래에 카테고리 미분류 `*.py` 파일이 있을 때
+- `leetcode/` 또는 `programmers/` 아래에 카테고리 미분류 `*.py`, `*.cpp` 파일이 있을 때
 - 문제 풀이 파일을 유형별 디렉토리로 재배치해야 할 때
 - 오늘 정리한 문제를 `logs/YYYY-MM-DD.md`에 요약해야 할 때
 - 문제별 커밋과 일일 요약 커밋까지 한 번에 정리해야 할 때
 
 ## Required Workflow
 
-1. `leetcode/`와 `programmers/` 아래에서 카테고리로 분류되지 않은 `*.py` 파일을 찾는다.
+1. `leetcode/`와 `programmers/` 아래에서 카테고리로 분류되지 않은 `*.py`, `*.cpp` 파일을 찾는다.
 2. 각 문제를 풀이 방식과 사용 자료구조 기준으로 유형별로 분류한다.
-3. 분류 결과에 맞춰 문제 파일을 적절한 카테고리 디렉토리로 이동한다.
+3. 분류 결과에 맞춰 문제 파일을 확장자를 유지한 채 적절한 카테고리 디렉토리로 이동한다.
 4. 이동한 문제들을 `logs/YYYY-MM-DD.md`에 기록한다.
 5. 각 문제 파일은 하나씩 개별 커밋한다.
 6. 마지막으로 해당 날짜의 로그 파일을 별도 커밋한다.
@@ -47,6 +47,7 @@ description: Project-specific workflow for this repository when reorganizing unc
 ## Must Do
 
 - 기존 디렉토리 구조를 먼저 확인하고 그 구조에 맞는 카테고리로 이동한다.
+- 파일 내용상 문제 번호가 파일명과 명백히 다르면 올바른 문제 번호로 함께 교정한다.
 - 분류 기준은 문제의 핵심 알고리즘/자료구조 기준으로 잡는다.
 - 로그에는 이번에 이동하거나 정리한 문제만 추가한다.
 - 커밋 전에 이동된 파일과 로그 내용을 다시 검토한다.
