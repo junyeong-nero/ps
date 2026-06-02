@@ -1,0 +1,107 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1779452802874,
+  "projectRoot": "/Users/junyeong-nero/workspace/ps",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "coding-test": {
+      "path": "coding-test",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1779452802861,
+      "keyFiles": []
+    },
+    "ds": {
+      "path": "ds",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1779452802861,
+      "keyFiles": [
+        "disjoint-set.py",
+        "segment-tree.py"
+      ]
+    },
+    "leetcode": {
+      "path": "leetcode",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1779452802862,
+      "keyFiles": [
+        "33.py"
+      ]
+    },
+    "logs": {
+      "path": "logs",
+      "purpose": null,
+      "fileCount": 103,
+      "lastAccessed": 1779452802862,
+      "keyFiles": [
+        "2025-01-25.md",
+        "2026-01-23.md",
+        "2026-01-26.md",
+        "2026-01-27.md",
+        "2026-01-28.md"
+      ]
+    },
+    "programmers": {
+      "path": "programmers",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1779452802862,
+      "keyFiles": []
+    },
+    "syntax": {
+      "path": "syntax",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1779452802863,
+      "keyFiles": [
+        "cpp.cpp",
+        "python.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "leetcode/33.py",
+      "accessCount": 1,
+      "lastAccessed": 1779452829086,
+      "type": "file"
+    },
+    {
+      "path": "logs/2026-05-22.md",
+      "accessCount": 1,
+      "lastAccessed": 1779453528759,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
